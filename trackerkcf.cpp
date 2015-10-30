@@ -512,7 +512,7 @@ bool TrackerKCF::getSubWindow(const cv::Mat &img, const cv::Rect _roi, cv::Mat &
         patch=patch/255.0-0.5;
         tmp_patch.push_back(patch);
         tmp_patch.push_back(diff_patch / 255);
-        LOGD("sum of diff_patch :%lf", cv::sum(tmp_patch[1])[0]);
+//        LOGD("sum of diff_patch :%lf", cv::sum(tmp_patch[1])[0]);
         merge(tmp_patch,patch);
         break;
     case CN:

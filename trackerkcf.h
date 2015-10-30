@@ -1,16 +1,11 @@
 #ifndef TRACKERKCF_H
 #define TRACKERKCF_H
 
-#include <android/log.h>
-
-#define LOG_TAGG "KCFTracker_jni"
-#define LOGD(...) ((void)__android_log_print(ANDROID_LOG_DEBUG, LOG_TAGG, __VA_ARGS__))
-
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
-#include <list>
 
+#include <list>
 #include <cmath>
 
 #include "colornames.h"
